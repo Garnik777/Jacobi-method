@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Element_type	jacobi.cpp	/^typedef float Element_type;$/;"	t	file:
+FileWriter	generator.cpp	/^	FileWriter( const char * fn ):fileName(fn)$/;"	f	struct:FileWriter
+FileWriter	generator.cpp	/^struct FileWriter$/;"	s	file:
+InsertMatrixDimensions	generator.cpp	/^void InsertMatrixDimensions(unsigned int & M, unsigned int & N,$/;"	f
+Matrix	jacobi.cpp	/^class Matrix$/;"	c	file:
+fileName	generator.cpp	/^	const char * fileName;$/;"	m	struct:FileWriter	file:
+fillMatrixValue	generator.cpp	/^void fillMatrixValue( FileWriter & fw, unsigned int row, unsigned int col, $/;"	f
+getCol	jacobi.cpp	/^	size_t getCol() const$/;"	f	class:Matrix
+getElement	jacobi.cpp	/^	Element_type & getElement( const std::size_t i , const std::size_t j) const$/;"	f	class:Matrix
+getRow	jacobi.cpp	/^	size_t getRow() const$/;"	f	class:Matrix
+initialize	jacobi.cpp	/^	void initialize( const std::size_t r, const std::size_t c )$/;"	f	class:Matrix
+jacobiMethod	jacobi.cpp	/^void jacobiMethod(const  Matrix & a, const  Matrix &b, Matrix &x)$/;"	f
+like_pipe	generator.cpp	/^	std::ofstream like_pipe;$/;"	m	struct:FileWriter	file:
+mColCount	jacobi.cpp	/^	size_t mColCount;$/;"	m	class:Matrix	file:
+mData	jacobi.cpp	/^	Element_type * mData;$/;"	m	class:Matrix	file:
+mRowCount	jacobi.cpp	/^	size_t mRowCount;$/;"	m	class:Matrix	file:
+main	generator.cpp	/^int main()$/;"	f
+main	jacobi.cpp	/^int main()$/;"	f
+myRound	jacobi.cpp	/^Element_type myRound( Element_type var)$/;"	f
+readMatrix	jacobi.cpp	/^void readMatrix( Matrix & matrix, std::ifstream & like_pipe )$/;"	f
+setElement	jacobi.cpp	/^	void setElement( const std::size_t i, const std::size_t j,const  Element_type  e)$/;"	f	class:Matrix
+write	generator.cpp	/^	bool  write(int x)$/;"	f	struct:FileWriter
+write	generator.cpp	/^	bool write( char c)$/;"	f	struct:FileWriter
+writeMatrix	jacobi.cpp	/^void writeMatrix(const Matrix & matrix , std::ofstream & like_pipe)$/;"	f
+~FileWriter	generator.cpp	/^	~FileWriter()$/;"	f	struct:FileWriter
